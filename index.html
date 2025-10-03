@@ -34,18 +34,38 @@
                 <p>A project I've been working on recently for cmp 257.</p>
             </div>
             <div class="project">
-                <h3>Portfolio Website</h3>
+                <a class="github-link" href="https://github.com/HasanAkel/portfolio-cmp257"><h3>Portfolio Website</h3></a>
                 <p>cmp 257 Homwework (youre looking at it right now!).</p>
             </div>
             </div>
         </section>
-
+            <h2    id ="projects-title">Contact</h2>
         <section id="contact">
-            <h2>Contact</h2>
+            
+            <div class="contact-box">
             <p>Email: <a href="mailto:b00101525@aus.ed">b00101525@aus.edu</a></p>
             <p>Number: +971545694950</p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/hasan-haitham-akel-5820002a4/" target="_blank">Hasan Haitham Akel</a></p>
             <p>Github: <a href="https://github.com/HasanAkel" target="_blank">HasanAkel</a></p>
+            </div>
+            <div class="contact-box">
+            <p>OR, click <a>here</a> if you want to quickly send me a message</p>
+            <button id="message-button">Message me!</button>
+            <div id="form-container">
+            <form id="contact-form" action="#" method="post">
+                <label for="form-name">Name:</label>
+                <input type="text" id="form-name" name="name" required>
+
+                <label for="form-email">Email:</label>
+                <input type="email" id="form-email" name="email" required>
+
+                <label for="form-message">Message:</label>
+                <textarea id="form-message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </div>
+            </div>
+            </form>
         </section>
     </main>
 

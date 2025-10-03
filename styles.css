@@ -122,3 +122,86 @@ nav{
     text-decoration: none;
     color: inherit;
 }
+.github-link:hover {
+    text-decoration: underline;
+    color: #000;
+}
+#contact{
+    background-color: white;
+    margin: 2rem auto;
+    width: 80%;
+    box-shadow: #000 0px 2px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-box{
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 3rem;
+    font-size: 1rem;
+}
+#contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 3rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fafafa;
+    box-sizing: border-box;
+}
+
+#contact-form label {
+    font-weight: bold;
+    color: #333;
+    font-size: 1rem;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background: #fff;
+    transition: border-color 0.2s;
+}
+
+
+#contact-form button[type="submit"] {
+    background-color: #838383;
+    color:  white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact-form button[type="submit"]:hover {
+    background-color: #5c5c5c;
+}
+#form-container{
+    display: none;
+}
+
+#message-button {
+    background-color: #5c5c5c;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#message-button:hover {
+    background-color: #5c5c5c;
+}
