@@ -30,7 +30,7 @@
         <section id="projects">
             <h2 id="projects-title">Projects</h2>
             <div class="projects-sec"><div class="project">
-                <a class="github-link" href="https://github.com/HasanAkel/meal-planner-website"><h3>Calorie Tracker Website</h3></a>
+                <a class="github-link" href="https://github.com/HasanAkel/meal-planner-website"><h3>Calorie Tracker Website</h3></a><!-- I added an interactivity feautrue when you click on it it opens the github for the project because the project doesnt have a domain yet. -->
                 <p>A project I've been working on recently for cmp 257.</p>
             </div>
             <div class="project">
@@ -50,9 +50,9 @@
             </div>
             <div class="contact-box">
             <p>OR, click <a>here</a> if you want to quickly send me a message</p>
-            <button id="message-button">Message me!</button>
+            <button id="message-button">Message me!</button> <!-- Button to show/hide the contact form -->
             <div id="form-container">
-            <form id="contact-form" action="https://formspree.io/f/xgvnzwdg" method="post">
+            <form id="contact-form" action="https://formspree.io/f/xgvnzwdg" method="post"> <!-- Form submits to Formspree for handling -->
                 <label for="form-name">Name:</label>
                 <input type="text" id="form-name" name="name" required>
 
@@ -67,15 +67,17 @@
             <div id="form-success">
                  Submitted successfully!
             </div>
-            </div>
-            </form>
-        </section>
+            
+            
+        </form> <!-- Form ends here -->
+        </div>    
+    </section>
     </main>
 
     <footer>
         <p>&copy; 2025 Hasan Akel</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- External JS file for interactivity (e.g., form toggle/submit) -->
 </body>
 </html>
